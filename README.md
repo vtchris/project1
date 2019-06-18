@@ -25,7 +25,7 @@ https://vilagen.github.io/project1/
     <li>Allow users to select non-local cities</li>
     <li>Include phone number (Zomato charges for this)</li>
     <li>Include recent reviews</li>
-    <li>Improve sorting but converting distances from text based kilometers, to a number</li>
+    <li>Improve sorting by converting distances from text based kilometers, to a number</li>
     <li>Further debugging of Food Fight game</li>
 </ul>
 
