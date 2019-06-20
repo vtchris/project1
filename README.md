@@ -49,10 +49,28 @@ Use the template below, replacing the user stories and acceptance criteria with 
 ## User Story
 As a user, I want to be able to input search queries so that I can search Stack Overflow when I'm stuck.
 
+<ol>
+    <li>Target audience is hungry people that are looking for a local place to eat based on certain criteria.</li>
+    <li>Provide a simple way to get info about local restaurants.</li>
+    <li>Provide an intuitive way to search based on criteria such as location, style, cost, menu.</li>
+    <li>User wants easy way to lookup local restaurant.</li>
+    <li>User wants to specify type of restaurant.</li>
+    <li>User wants some user basic review info.</li>
+</ol>
+
+
 ## Acceptance Criteria
 - [ ] index.html has a text input
 - [ ] index.html has a search button
-```
+
+<ol>
+    <li>html has input for search criteria such as style, cost, rating, name of restaurant.</li>
+    <li>This would be via toggle(s) based on what user wants to search.</li>
+    <li>html has serach button.</li>
+    <li>html has div outputs for results, pictures, maps.</li>
+    <li>Design for mobile layout as priority. </li>
+</ol>
+
 
 * **This is a critical task.** Don't be afraid to ask instructional staff for help during this part. Make sure that each task is clear and everyone on the team understands how to implement each one. 
 
@@ -72,21 +90,3 @@ In a dating website application...
 4. Display the closest match to the user.
 =======
 =======
-<ol>
-    <li>Target audience is hungry people that are looking for a local place to eat based on certain criteria.</li>
-    <li>Provide a simple way to get info about local restaurants.</li>
-    <li>Provide an intuitive way to search based on criteria such as location, style, cost, menu.</li>
-    <li>User wants easy way to lookup local restaurant.</li>
-    <li>User wants to specify type of restaurant.</li>
-    <li>User wants some user basic review info.</li>
-</ol>
-  
-# Acceptance Criteria
-<ol>
-    <li>html has input for search criteria such as style, cost, rating, name of restaurant.</li>
-    <li>This would be via toggle(s) based on what user wants to search.</li>
-    <li>html has serach button.</li>
-    <li>html has div outputs for results, pictures, maps.</li>
-    <li>Design for mobile layout as priority. </li>
-</ol>
-
