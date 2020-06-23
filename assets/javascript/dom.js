@@ -64,8 +64,8 @@ $submit.on("click", function () {
 function display_restaurants(array) {
 
   $retaurantsTable.empty();
-debugger
-  //console.log("Sorting Now")   
+
+    
   var arrSorted = array.sort((a, b) => (a.kilometers > b.kilometers) ? 1 : -1)
 
   $newHeader = $("<tr>");

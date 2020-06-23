@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Find restaurants near your current local, Free! Developed by David Hart, Jarvis Maness, Chris Ross, and Joshua Childress">
     <title>Grub Wiz</title>
 
     <!-- jQuery Reference-->
@@ -39,21 +40,13 @@
 
     <div container id="area" class="text-center text-white font-weight-bold container-fluid" style="padding:5%;">
 
-
-        <!--   <select class="custom-select" id="selector" style="width:30%;">
-            <option selected>How would you like to search</option>
-            <option value="cuisine">Cuisine </option>
-            <option value="rating">Ratings</option>
-            <option value="location">Zipcode or Address</option>
-        </select>-->
         <label>Pick Your Flavor</label><br>
         <select class="custom-select" id="cuisine-sel" >
                 <option value="-" disabled selected>Finding Your Local Options</option>
         </select>
         <br>
         <button type="button" id="submit-btn" class="btn btn-success btn-lg my-2 mb-5">Submit</button>
-        <!-- <button type="button" id="goBack" class="btn btn-secondary btn-lg mx-4">Go Back</button>-->
-
+        
         <div id="restaurants-div" class="display_none">
             <table id="restaurants-table" class="table table-hover text-left">
 
@@ -71,11 +64,7 @@
                 </div>
                 <div id="restaurant-div" class="text-dark list-group">
                     <ul id="restaurant-ul">
-
-
-                    </ul>
-
-                    
+                    </ul>                    
                 </div>
                 <div class="modal-footer">
                         <a href="rpg-game.html" class="btn btn-info" target="_blank">WAITING FOR A TABLE? PLAY FOOD

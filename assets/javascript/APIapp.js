@@ -9,17 +9,12 @@ var cuisine = $('#cuisineEntry').val().trim()
 //     }
 // }
 
-<<<<<<< HEAD
 var homeAddress = null
 var user_latitude = null
 var user_longitude = null
-=======
-// var homeAddress = null
->>>>>>> 60cb997428a88ead396b953af00dda2bb8712a5c
 
 // // creating location of user with and pushing that to var homeAddress
 
-<<<<<<< HEAD
 function showPosition(position) {
         user_latitude = position.coords.latitude
         user_longitude = position.coords.longitude
@@ -29,17 +24,6 @@ function showPosition(position) {
         console.log(position.coords.latitude, position.coords.longitude)
         console.log(homeAddress)
        }
-=======
-// function showPosition(position) {
-//         var lat = position.coords.latitude
-//         var long = position.coords.longitude
-//         homeAddress = lat + ', ' + long
-//         console.log(lat)
-//         console.log(long)
-//         console.log(position.coords.latitude, position.coords.longitude)
-//         console.log(homeAddress)
-//        }
->>>>>>> 60cb997428a88ead396b953af00dda2bb8712a5c
 
 // // load location when page loads.
 // document.addEventListener('DOMContentLoaded', function(){
@@ -67,6 +51,8 @@ function getDurationTime(arr) {
 
     var queryURL2 = 'https://cors-anywhere.herokuapp.com/https://maps.googleapis.com/maps/api/distancematrix/json?origins=|' + homeAddress + 
                     '&destinations=' + restaurantGeo + '&key=AIzaSyAwprJVRaKbbUc19bvkqHN_8ICjtUSVAJg'
+
+                    
     
     $.ajax({
     url: queryURL2,
