@@ -1,3 +1,6 @@
+html {
+    height:100%;
+}
 body {
     background-color:black;
     background-image: url("../images/restaurant.jpg");
@@ -6,6 +9,8 @@ body {
     background-size: cover;
     color: white;
     height:100%;    
+    margin:0;
+    padding: 0;
 }
 footer a {
     
@@ -52,7 +57,6 @@ ul {
     border-top: 2px solid white;
 }
 #restaurants-div{
-    /*border:solid 1px black;*/
     display:block;    
     height:250px;
     margin-bottom: 50px;
