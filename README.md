@@ -1,7 +1,7 @@
 <h1>GRUB WIZ</h1>
 
 <p>Try online at:</p>
-https://vilagen.github.io/project1/
+https://vtchris.github.io/project1/
 
 <h3>Technology</h3>
 <hr>
@@ -29,13 +29,8 @@ https://vilagen.github.io/project1/
     <li>Further debugging of Food Fight game</li>
 </ul>
 
-
 <h2>Mission (Homework)</h2> 
 # project1
-
-# Student Do: GitHub Issues
-
-* In this activity you will create an Issue on GitHub utilizing the template provided.
 
 ## Instructions
 
@@ -47,7 +42,6 @@ Use the template below, replacing the user stories and acceptance criteria with 
 
 ```
 ## User Story
-As a user, I want to be able to input search queries so that I can search Stack Overflow when I'm stuck.
 
 <ol>
     <li>Target audience is hungry people that are looking for a local place to eat based on certain criteria.</li>
@@ -58,10 +52,7 @@ As a user, I want to be able to input search queries so that I can search Stack 
     <li>User wants some user basic review info.</li>
 </ol>
 
-
 ## Acceptance Criteria
-- [ ] index.html has a text input
-- [ ] index.html has a search button
 
 <ol>
     <li>html has input for search criteria such as style, cost, rating, name of restaurant.</li>
@@ -70,23 +61,3 @@ As a user, I want to be able to input search queries so that I can search Stack 
     <li>html has div outputs for results, pictures, maps.</li>
     <li>Design for mobile layout as priority. </li>
 </ol>
-
-
-* **This is a critical task.** Don't be afraid to ask instructional staff for help during this part. Make sure that each task is clear and everyone on the team understands how to implement each one. 
-
-As an example:
-
-In a dating website application...
-
-**User Story**: As a user I want to see my closest match, so that I can meet someone with whom I share interests.
-
-* **BAD TASK**: 
-1. On new member form submit, find and display best match.
-
-* **GOOD TASKS**: 
-1. build a form that captures user scores (1-5) to ten questions. 
-2. On submit, save the ten numerical answers to as an array.
-3. Compare the user array to each existing user array and find the closest match.
-4. Display the closest match to the user.
-=======
-=======
